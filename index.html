@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form target="_blank">
+        <input type="text" placeholder="Enter the length of the password" id="length">
+        <label id="label"> If you enter nothing or invalid number then<br>a password of default length (7) will be generated.</label>
+        <button type="submit" id="submit">Click to generate password</button>
+    </form>
+
+    <div class="container">
+        <pre>The generated password is : </pre>
+        <p class="ans_cont"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
